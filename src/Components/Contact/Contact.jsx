@@ -5,6 +5,8 @@ import { FaArrowUp, FaFacebookF, FaLinkedinIn, FaInstagramSquare, FaTwitter } fr
 import emailjs from '@emailjs/browser';
 import { useRef } from "react";
 import Swal from "sweetalert2";
+// import Lottie from "lottie-react";
+// import sms from "../../../public/sms.json";
 
 
 const Contact = () => {
@@ -28,11 +30,26 @@ const Contact = () => {
                 console.log(error.text);
             });
     };
+
+    // const defaultOptions = {
+    //     loop: true,
+    //     autoplay: true, 
+    //     animationData:sms,
+    //     rendererSettings: {
+    //       preserveAspectRatio: 'xMidYMid slice'
+    //     }
+    //   };
     return (
         <div id="contact">
             <h2 className="sub-title">Contact <span>Me</span></h2>
             <div className="contact" >
                 <div className="contact-text">
+                {/* <div className="bg-white">
+                <Lottie options={defaultOptions}
+                        
+                        />
+                </div> */}
+
 
                     <h4>Let's work Together</h4>
                     <p>

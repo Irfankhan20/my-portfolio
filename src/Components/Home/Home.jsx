@@ -8,8 +8,11 @@ import Skills from "../Skills/Skills";
 
 
 const Home = () => {
+    
+      
     return (
         <div>
+            
             <Navbar></Navbar>
             <Banner></Banner>
             <AboutUs></AboutUs>

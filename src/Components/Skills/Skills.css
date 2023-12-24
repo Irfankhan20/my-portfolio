@@ -13,28 +13,19 @@
 .react{
     color: #69bcbc;
 }
-section{
-    display: flex;
-    flex-wrap: wrap;
-}
-.professional-skills .first:hover{
+
+/* .professional-skills .first:hover{
     background: #0ef;
     color: #081b29;
     box-shadow: 0 0 20px #0ef;
-}
-.professional-skills{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 10px;
-    /* margin-left: 80px; */
-}
-.container1{
+} */
+
+/* .container1{
     width: 600px;
     height: 500px;
     padding: 75px 90px;
     margin-left: 120px;
-}
+} */
 
 .heading1{
     text-align: center;
@@ -43,35 +34,38 @@ section{
     text-decoration-thickness: 5px;
     margin-bottom: 50px;
 }
+/* .style2{
+   
+        background-color: transparent;
+        font-weight: 13px;
+        border-right: 10px;
+        border-radius: 10px;
+        transition: background 0.5s, transform 0.5s;
+        box-shadow: 1px 1px 20px #0053b8f7,
+        1px 1px 40px #0053b8f7;
+    
+} */
+.bar:hover {
+    transform: translateY(-8px);
+    cursor: pointer;
+    
+}
+/* .style2:hover {
+    transform: translateY(-8px);
+    cursor: pointer;
+} */
 
 .bar{
     font-size: 23px;
 }
-.Technical-bars .bar{
-    margin-top: 40px 0;
-    margin-left: 170px;
-}
 
-.Technical-bars .bar:first-child{
-    margin-top: 0;
-}
-
-.Technical-bars .bar:last-child{
-    margin-bottom: 0;
-}
-
-.Technical-bars .bar .info{
-    margin-bottom: 40px;
-    /* margin-left: 170px; */
-    
-}
 
 .Technical-bars .bar .info span{
     
     font-size: 17px;
     font-weight: 500;
     animation: showTest 0.5s 1s linear forwards;
-    /* opacity: 0; */
+    
 }
 
 .Technical-bars .bar .progress-line{
@@ -85,41 +79,4 @@ section{
     transform-origin: left;
 }
 
-@keyframes animate{
-    100%{
-        transform: scaleX(1);
-    }
-}
 
-.Technical-bars .bar .progress-line span{
-    height: 100%;
-    background-color: #0ef;
-    position: absolute;
-    border-radius: 10px;
-    animation: animate 1s 1s cubic-bezier(1,0,0,5,1) forwards;
-    transform: scaleX(0);
-    transform-origin: left;
-}
-.skills-section{
-    display: flex;
-    justify-content: center;
-    /* margin-bottom: 50px; */
-}
-
-.progress-line.html span{
-    width: 90%;
-    
-}
-
-.progress-line.css span{
-    width: 75%;
-}
-.progress-line.javascript span{
-    width: 70%;
-}
-.progress-line.mongodb span{
-    width: 80%;
-}
-.progress-line.react span{
-    width: 75%;
-}
