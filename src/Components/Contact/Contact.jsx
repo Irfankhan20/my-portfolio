@@ -5,6 +5,7 @@ import { FaArrowUp, FaFacebookF, FaLinkedinIn, FaInstagramSquare, FaTwitter } fr
 import emailjs from '@emailjs/browser';
 import { useRef } from "react";
 import Swal from "sweetalert2";
+import Typewriter from 'typewriter-effect';
 // import Lottie from "lottie-react";
 // import sms from "../../../public/sms.json";
 
@@ -31,40 +32,40 @@ const Contact = () => {
             });
     };
 
-    // const defaultOptions = {
-    //     loop: true,
-    //     autoplay: true, 
-    //     animationData:sms,
-    //     rendererSettings: {
-    //       preserveAspectRatio: 'xMidYMid slice'
-    //     }
-    //   };
+    
     return (
         <div id="contact">
-            <h2 className="sub-title">Contact <span>Me</span></h2>
-            <div className="contact" >
-                <div className="contact-text">
-                {/* <div className="bg-white">
-                <Lottie options={defaultOptions}
+            <h2 className="sub-title ">Contact <span>Me</span></h2>
+            <div className="text-center mb-20">
+            
+                    <p className=""><span className="text-2xl text-[#0ef]"><Typewriter
+                            options={{
+                                strings: ['Let is work together ,'],
+                                autoStart: true,
+                                loop: true,
+                            }}
+                        /></span>
                         
-                        />
-                </div> */}
-
-
-                    <h4>Let's work Together</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis qui tempore voluptas enim mollitia hic porro, repellendus nihil natus praesentium.
+                    Empowering Success Through Collaborative Teamwork.
                     </p>
-                    <div className="contact-list">
+                    
+                    
+            </div>
+            <div className="contact grid grid-cols-2   " >
+                <div className="contact-text my-16  shadow-2xl">
+                <div className="contact-list flex mx-auto mb-5 max-w-7xl  text-center gap-7 justify-center">
                         <li><IoSend className="contact-logo" />contact@gmail.com</li>
                         <li><MdLocalPhone className="contact-logo" />01941456477</li>
                     </div>
-                    <div className="contact-icons">
+                    <img className="w-[500px] h-[353px] mx-auto" src="https://i.ibb.co/McqLNL3/gif.gif" alt="" />
+                    <div className="contact-icons text-center">
                         <a href="https://www.facebook.com/profile.php?id=61552211709891"><FaFacebookF className="contact-logo" /></a>
                         <a href="https://twitter.com/irfankhan2019"><FaTwitter className="contact-logo" /></a>
                         <a href="https://www.instagram.com/irfanproggramer/"><FaInstagramSquare className="contact-logo" /></a>
                         <a href="https://www.linkedin.com/in/irfan-khan-pathan-303700270/"><FaLinkedinIn className="contact-logo" /></a>
                     </div>
+
+                    
                 </div>
 
                 <div className="contact-form">
