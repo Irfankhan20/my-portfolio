@@ -10,7 +10,7 @@ const Projects = () => {
             <div class="main-text" >
             <h2 className="section-name">Latest <span>Project</span></h2>
 
-            <div class="portfolio-content grid grid-cols-2 gap-10 max-w-7xl mx-auto">
+            <div class="portfolio-content grid grid-cols-1 md:grid-cols-2 gap-10 max-w-7xl mx-auto">
             <div class="row">
                         <img src="https://i.ibb.co/kmj93Rq/food-management.jpg" alt="" />
                         <div class="layer">

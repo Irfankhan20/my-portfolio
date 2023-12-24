@@ -3,8 +3,8 @@ import "./Services.css";
 
 const Services = () => {
     return (
-        <div>
-            <div className="services" id="services">
+        <div id="services">
+            <div className="services" >
                 <div className="container">
                     <h1 className="sub-title">My <span>Services</span></h1>
                     <div className="services-list">

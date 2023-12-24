@@ -21,6 +21,9 @@
     padding-right: 40px;
 
 } */
+.row:hover {
+    transform: translateY(-10px);
+}
 .row{
     position: relative;
     overflow: hidden;
@@ -87,9 +90,9 @@
     justify-content: center;
     border-radius: 50%;
 }
-.row:hover img{
+/* .row:hover img{
     transform: scale(1.1);
-}
+} */
 .row:hover .layer{
     height: 100%;
 }

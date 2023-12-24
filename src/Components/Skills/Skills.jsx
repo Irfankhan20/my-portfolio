@@ -8,8 +8,10 @@ const Skills = () => {
             <h1 className="sub-title">My <span>Skills</span></h1>
             <div className="skills-section">
                 <div className="container1">
+
+                  {/* technical skills  */}
                     <h1 className="heading1 text-3xl">Technical Skills</h1>
-                    <div className="Technical-bars style2 mb-20 mt-20 pb-16 pt-8 grid grid-cols-5 max-w-7xl  gap-10 mx-auto justify-center">
+                    <div className="Technical-bars style2 mb-20 mt-20 pb-16 pt-8 grid grid-cols-3 md:grid-cols-5 md:max-w-7xl  gap-10 mx-auto justify-center">
 
                         <div className="bar"><FaHtml5 className="html w-[132px] pl-20 h-10 style" />
                             <div className="info text-center">
@@ -105,6 +107,9 @@ const Skills = () => {
                     </div>
                 </div>
 
+                  
+
+                  {/* professional skills  */}
                 <div className="container1">
                     <h1 className="heading1 text-3xl">Professional Skills</h1>
 

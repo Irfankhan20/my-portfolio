@@ -51,7 +51,7 @@ const Contact = () => {
                     
                     
             </div>
-            <div className="contact grid grid-cols-2   " >
+            <div className="contact grid grid-cols-1 md:grid-cols-2   " >
                 <div className="contact-text my-16  shadow-2xl">
                 <div className="contact-list flex mx-auto mb-5 max-w-7xl  text-center gap-7 justify-center">
                         <li><IoSend className="contact-logo" />contact@gmail.com</li>
