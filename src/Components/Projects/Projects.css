@@ -13,14 +13,14 @@
 .main-text h2 span{
     color: #0ef;
 }
-.portfolio-content{
+/* .portfolio-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(359px, auto));
     gap: 15px;
     padding-left: 40px;
     padding-right: 40px;
 
-}
+} */
 .row{
     position: relative;
     overflow: hidden;
@@ -44,7 +44,7 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     text-align: center;
     padding: 0 40px;
@@ -68,11 +68,10 @@
     display: flex;
     justify-content: center;
     gap: 10px;
+    
 
 }
-/* .icon-div span{
-    color: #002fff;
-} */
+
 .layer .logo{
     cursor: pointer;
     color: #000;

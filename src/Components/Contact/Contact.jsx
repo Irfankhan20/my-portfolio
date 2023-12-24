@@ -40,7 +40,7 @@ const Contact = () => {
             
                     <p className=""><span className="text-2xl text-[#0ef]"><Typewriter
                             options={{
-                                strings: ['Let is work together ,'],
+                                strings: ["Let's work together ,"],
                                 autoStart: true,
                                 loop: true,
                             }}
@@ -96,7 +96,7 @@ const Contact = () => {
             </div>
 
             <div className="last-text">
-                <p>Developed with love by Irfan Khan Pathan ©️ 2023</p>
+                <p>Developed by Irfan Khan Pathan ©️ 2023</p>
             </div>
             <a href="#" className="top"><FaArrowUp className="uparrow-icon" /></a>
         </div>
