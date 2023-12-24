@@ -5,7 +5,7 @@ const Services = () => {
     return (
         <div id="services">
             <div className="services" >
-                <div className="container">
+                <div className="container mx-auto">
                     <h1 className="sub-title">My <span>Services</span></h1>
                     <div className="services-list">
                         <div>
