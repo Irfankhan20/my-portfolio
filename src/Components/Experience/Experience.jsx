@@ -6,7 +6,7 @@ const Experience = () => {
             <div className="max-w-7xl mx-auto">
                 <h1 className="text-[60px] text-center ">Academic <span className="text-[#0ef]">Experience</span></h1>
 
-                <div className="grid  grid-cols-1 md:grid-cols-2 mx-auto  mt-16">
+                <div className="grid pl-7 grid-cols-1 md:grid-cols-2 mx-auto  mt-16">
 
                     {/* honours */}
                  <div className="border-r-4 md:pl-24 leading-8  border-[#0ef] ">

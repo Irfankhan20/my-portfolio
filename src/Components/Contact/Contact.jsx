@@ -57,8 +57,8 @@ const Contact = () => {
                         <li><IoSend className="contact-logo" />contact@gmail.com</li>
                         <li><MdLocalPhone className="contact-logo" />01941456477</li>
                     </div>
-                    <img className="w-[500px] h-[353px] mx-auto" src="https://i.ibb.co/McqLNL3/gif.gif" alt="" />
-                    <div className="contact-icons text-center">
+                    <img className="w-[500px] px-5 h-[353px] mx-auto" src="https://i.ibb.co/McqLNL3/gif.gif" alt="" />
+                    <div className="  contact-icons text-center">
                         <a href="https://www.facebook.com/profile.php?id=61552211709891"><FaFacebookF className="contact-logo" /></a>
                         <a href="https://twitter.com/irfankhan2019"><FaTwitter className="contact-logo" /></a>
                         <a href="https://www.instagram.com/irfanproggramer/"><FaInstagramSquare className="contact-logo" /></a>
@@ -68,7 +68,7 @@ const Contact = () => {
                     
                 </div>
 
-                <div className="contact-form">
+                <div className="ml-7 contact-form">
                     <form id="send-message" ref={form} onSubmit={sendEmail}>
                         <div className="emailbox-style">
                             <label>Your Name</label>

@@ -3,14 +3,14 @@ import Resume from '../../assets/final resume.pdf';
 
 const AboutUs = () => {
     return (
-        <div  id="about">
+        <div className=""  id="about">
             {/* border-2 border-red-700 */}
-            <div className="max-w-7xl flex justify-between mx-auto">
-                <div className="about-img items-center  flex-1 ">
+            <div className="max-w-7xl md:flex justify-between mx-auto">
+                <div className="about-img items-center  md:flex-1 ">
                     <img className="mt-20" src="https://i.ibb.co/hZNCPbk/boot-1.png" alt="Irfan Photo" />
                 </div>
 
-                <div className="about-text flex-1">
+                <div className="about-text pl-5 mb-10 flex-1">
                 <h2 className="aboutme-title  pt-32 ">About<span>Me</span></h2>
                     <h4>MERN Stack Developer!</h4>
                     <p><span>Hello!</span> I am highly skilled MERN Stack developer crafting robust web apps with seamless user experiences.

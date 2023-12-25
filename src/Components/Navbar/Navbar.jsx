@@ -7,10 +7,10 @@ import "./Navbar.css";
 
 const Navbar = () => {
     return (
-        <div className="header py-5 px-3">
+        <div className="header  py-5 px-3">
             <div><a href="#" className="logo">Portfolio</a></div>
             <div>
-                <nav className="navbar">
+                <nav className="navbar hidden md:block">
                     <a href="#home" className="active">Home</a>
                     <a href="#about">About</a>
                     <a href="#experience">Experience</a>
