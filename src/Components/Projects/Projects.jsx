@@ -15,7 +15,7 @@ const Projects = () => {
             <div class="row">
               <img src="https://i.ibb.co/SQ0KCcG/team-project-ss.jpg" alt="" />
               <div class="layer">
-                <h5>HomifyEstate</h5>
+                <h5>HomifyEstate(Team project)</h5>
 
                 <div className="icon-div ">
                   <a href="https://homifyestate-8556d.web.app/">
