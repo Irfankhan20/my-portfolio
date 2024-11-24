@@ -4,13 +4,7 @@ import Resume from "../../assets/final resume.pdf";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-// import {
-//   VerticalTimeline,
-//   VerticalTimelineElement,
-// } from "react-vertical-timeline-component";
-// import "react-vertical-timeline-component/style.min.css";
-// import workIcon1 from "../../assets/recomandation icon.png";
-// import recomLetter from "../../assets/recommendation letter_page-0001.jpg";
+
 const AboutUs = () => {
   useEffect(() => {
     Aos.init();
@@ -22,40 +16,13 @@ const AboutUs = () => {
       className="lg:mt-32 mt-20 w-11/12 mx-auto"
       id="about"
     >
-      <h2 className="aboutme-title underline text-center">
-        About<span>Me</span>
+      <h2 className="md:text-[60px] text-[45px] pb-2 md:pb-4 underline text-center font-bold">
+        About<span className="text-[#0ef]">Me</span>
       </h2>
       <div className=" md:flex w-full justify-between mx-auto">
-        {/* <VerticalTimeline>
-            
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work "
-              contentArrowStyle={{
-                borderRight: "7px solid  rgb(33, 150, 243)",
-              }}
-              date="PROGGRAMING HERO recomendation letter"
-            >
-              <img className="lg:w-32 lg:h-32" src={recomLetter} alt="" />
-            </VerticalTimelineElement>
-            
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date="PROGGRAMING HERO"
-            >
-              <img className="lg:w-full lg:h-40" src={recomLetter} alt="" />
-            </VerticalTimelineElement>
-            
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date="PROGGRAMING HERO"
-            >
-              <img className="lg:w-32 lg:h-32" src={recomLetter} alt="" />
-            </VerticalTimelineElement>
-          </VerticalTimeline> */}
-
         {/* right  */}
         <div className="about-text pl-5 mb-10 flex-1">
-          <h4>MERN Stack Developer!</h4>
+          <h4 className="text-[29px] font-bold">MERN Stack Developer!</h4>
           <p className="md:leading-10 md:text-xl pt-3 pb-8">
             <span>Hello!</span> I am highly skilled MERN Stack developer
             crafting robust web apps with seamless user experiences. Proficient
