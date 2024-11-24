@@ -1,25 +1,62 @@
 import "./AboutUs.css";
 import Resume from "../../assets/final resume.pdf";
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+// import {
+//   VerticalTimeline,
+//   VerticalTimelineElement,
+// } from "react-vertical-timeline-component";
+// import "react-vertical-timeline-component/style.min.css";
+// import workIcon1 from "../../assets/recomandation icon.png";
+// import recomLetter from "../../assets/recommendation letter_page-0001.jpg";
 const AboutUs = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
-    <div className="" id="about">
-      {/* border-2 border-red-700 */}
-      <div className="max-w-7xl md:flex justify-between mx-auto">
-        <div className="about-img items-center  md:flex-1 ">
-          <img
-            className="mt-20"
-            src="https://i.ibb.co/hZNCPbk/boot-1.png"
-            alt="Irfan Photo"
-          />
-        </div>
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      className="lg:mt-32 mt-20 w-11/12 mx-auto"
+      id="about"
+    >
+      <h2 className="aboutme-title underline text-center">
+        About<span>Me</span>
+      </h2>
+      <div className=" md:flex w-full justify-between mx-auto">
+        {/* <VerticalTimeline>
+            
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work "
+              contentArrowStyle={{
+                borderRight: "7px solid  rgb(33, 150, 243)",
+              }}
+              date="PROGGRAMING HERO recomendation letter"
+            >
+              <img className="lg:w-32 lg:h-32" src={recomLetter} alt="" />
+            </VerticalTimelineElement>
+            
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="PROGGRAMING HERO"
+            >
+              <img className="lg:w-full lg:h-40" src={recomLetter} alt="" />
+            </VerticalTimelineElement>
+            
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="PROGGRAMING HERO"
+            >
+              <img className="lg:w-32 lg:h-32" src={recomLetter} alt="" />
+            </VerticalTimelineElement>
+          </VerticalTimeline> */}
 
+        {/* right  */}
         <div className="about-text pl-5 mb-10 flex-1">
-          <h2 className="aboutme-title  pt-32 ">
-            About<span>Me</span>
-          </h2>
           <h4>MERN Stack Developer!</h4>
-          <p>
+          <p className="md:leading-10 md:text-xl pt-3 pb-8">
             <span>Hello!</span> I am highly skilled MERN Stack developer
             crafting robust web apps with seamless user experiences. Proficient
             in front-end (HTML5, CSS3, JavaScript) and back-end (Node.js,
@@ -34,7 +71,7 @@ const AboutUs = () => {
           </p>
           <a
             href="https://drive.google.com/file/d/1QSRA7oqz_Vz_TbpRiE6bEgQM86Z6n0id/view?usp=sharing"
-            className="btn-box"
+            className="btn-box  px-4 py-3"
           >
             View Resume
           </a>
@@ -42,7 +79,7 @@ const AboutUs = () => {
             href={Resume}
             target="_blank"
             download="Irfan_Resume.pdf"
-            className="btn-box"
+            className="btn-box px-3 py-3"
             id="resume-btn"
           >
             Download Resume
