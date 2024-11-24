@@ -4,14 +4,30 @@ import Typewriter from "typewriter-effect";
 
 const Banner = () => {
   return (
-    <div id="home">
-      <div className="home">
+    <div
+      id="home"
+      className="md:flex md:flex-row-reverse w-11/12 mx-auto lg:h-[800px] lg:w-full items-center pt-[70px] md:pt-[120px] lg:pt-[85px] "
+    >
+      {/* right part */}
+      <div className="md:w-1/2 md:mb-20 mb-0 lg:mb-0">
+        <img
+          className=""
+          src="https://i.ibb.co.com/QH2FVgX/Screenshot-2024-11-24-115843.png"
+          alt=""
+        />
+      </div>
+      {/* left part  */}
+      <div className="home md:w-1/2 flex justify-center">
         <div className="home-content">
-          <h3>Hello, It's Me</h3>
-          <h1>Irfan Khan Pathan</h1>
-          <h3>
+          <h2 className="text-2xl md:text-[28px] lg:text-[32px] font-bold">
+            Hello, It's Me
+          </h2>
+          <h1 className=" w-full  py-5 md:py-4 lg:py-7 text-4xl md:text-[40px] lg:text-[56px] font-bold">
+            Irfan Khan Pathan
+          </h1>
+          <h3 className="text-2xl md:text-[28px] md:leading-10 font-bold lg:text-[32px]">
             And I'm a{" "}
-            <span className="text">
+            <span className="text-[#0ef]">
               <Typewriter
                 options={{
                   strings: [
@@ -25,7 +41,7 @@ const Banner = () => {
               />
             </span>
           </h3>
-          <p>
+          <p className="pt-8 lg:pt-6">
             I'm a Web Developer with MERN stack. Now I'm learning and practicing
             Next.Js
           </p>
@@ -40,9 +56,7 @@ const Banner = () => {
               <FaInstagramSquare className="fb-logo" />
             </a>
           </div>
-          {/* <a href="#" className="btn-box">More About Me</a> */}
         </div>
-        <span className="home-imgHover"></span>
       </div>
     </div>
   );

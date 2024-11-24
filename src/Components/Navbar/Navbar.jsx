@@ -28,9 +28,9 @@ const Navbar = () => {
   );
   return (
     <div className="navbar fixed z-50 bg-[#051129]">
-      <div className="w-11/12 mx-auto flex items-center  justify-between">
+      <div className="md:w-11/12 w-full mx-auto flex items-center  justify-between">
         {/* navbar start  */}
-        <div className="">
+        <div className="ml-3 md:ml-0 lg:ml-0">
           <a href="#" className="font-bold text-[25px] text-[#fff]">
             Portfolio
           </a>
