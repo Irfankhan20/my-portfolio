@@ -7,23 +7,19 @@ import Projects from "../Projects/Projects";
 import Services from "../Services/Services";
 import Skills from "../Skills/Skills";
 
-
 const Home = () => {
-    
-      
-    return (
-        <div>
-            
-            <Navbar></Navbar>
-            <Banner></Banner>
-            <AboutUs></AboutUs>
-            <Experience></Experience>
-            <Services></Services>
-            <Skills></Skills>
-            <Projects></Projects>
-            <Contact></Contact>
-        </div>
-    );
+  return (
+    <div>
+      <Navbar></Navbar>
+      <Banner></Banner>
+      <AboutUs></AboutUs>
+      <Experience></Experience>
+      <Services></Services>
+      <Skills></Skills>
+      <Projects></Projects>
+      <Contact></Contact>
+    </div>
+  );
 };
 
 export default Home;

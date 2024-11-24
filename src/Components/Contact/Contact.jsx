@@ -12,8 +12,6 @@ import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import Swal from "sweetalert2";
 import Typewriter from "typewriter-effect";
-// import Lottie from "lottie-react";
-// import sms from "../../../public/sms.json";
 
 const Contact = () => {
   const form = useRef();
