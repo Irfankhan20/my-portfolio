@@ -32,8 +32,11 @@ const Experience = () => {
         <div>
           <VerticalTimeline>
             {/* web  */}
+
             {counterOn && (
               <VerticalTimelineElement
+                data-aos="fade-up"
+                data-aos-duration="1000"
                 className="vertical-timeline-element--work "
                 contentStyle={{
                   background: "#1d1836",
@@ -57,8 +60,12 @@ const Experience = () => {
                 </p>
               </VerticalTimelineElement>
             )}
+
             {/* honours  */}
+
             <VerticalTimelineElement
+              data-aos="fade-up"
+              data-aos-duration="1000"
               className="vertical-timeline-element--work "
               contentStyle={{
                 background: "#1d1836",
@@ -81,8 +88,12 @@ const Experience = () => {
                 practical applications in various fields.
               </p>
             </VerticalTimelineElement>
+
             {/* hsc */}
+
             <VerticalTimelineElement
+              data-aos="fade-up"
+              data-aos-duration="1000"
               className="vertical-timeline-element--work "
               contentStyle={{
                 background: "#1d1836",
@@ -105,8 +116,12 @@ const Experience = () => {
                 technical challenges.
               </p>
             </VerticalTimelineElement>
+
             {/* ssc  */}
+
             <VerticalTimelineElement
+              data-aos="fade-down"
+              data-aos-duration="1000"
               className="vertical-timeline-element--work "
               contentStyle={{
                 background: "#1d1836",

@@ -9,11 +9,16 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import Swal from "sweetalert2";
 import Typewriter from "typewriter-effect";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Contact = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -45,11 +50,11 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact">
-      <h2 className="sub-title ">
-        Contact <span>Me</span>
+    <div id="contact" className=" lg:mt-32 mt-20">
+      <h2 className="md:text-[60px] text-[45px] pb-2 md:pb-4 underline text-center font-bold">
+        Contact <span className="text-[#0ef]">Me</span>
       </h2>
-      <div className="text-center mb-20">
+      <div className="text-center">
         <p className="">
           <span className="text-2xl text-[#0ef]">
             <Typewriter
@@ -64,7 +69,7 @@ const Contact = () => {
         </p>
       </div>
       <div className="contact grid grid-cols-1 md:grid-cols-2   ">
-        <div className="contact-text my-16  shadow-2xl">
+        <div className="contact-text md:my-16 mt-5 md:mt-0 lg:mt-0 shadow-2xl">
           <div className="contact-list flex mx-auto mb-5 max-w-7xl  text-center gap-7 justify-center">
             <li>
               <IoSend className="contact-logo" />
