@@ -16,25 +16,24 @@ const Projects = () => {
             Latest <span className="text-[#0ef]">Project</span>
           </h2>
 
-          <div className="portfolio-content grid grid-cols-1 mt-10 md:mt-20 md:grid-cols-2 gap-10  w-11/12 mx-auto">
+          <div className="portfolio-content grid grid-cols-1 mt-10 md:mt-20 md:grid-cols-2 gap-10  w-11/12 lg:w-10/12 mx-auto">
             {/* 1st project  */}
             <div className="row">
-              <img src="https://i.ibb.co/SQ0KCcG/team-project-ss.jpg" alt="" />
+              <img
+                src="https://i.ibb.co.com/DfJ17Pk/Screenshot-2024-11-27-123502.png"
+                alt=""
+              />
               <div className="layer">
-                <h5>HomifyEstate(Team project)</h5>
+                <h5>LingoBingo</h5>
 
-                <div className="icon-div ">
-                  <a href="https://homifyestate-8556d.web.app/">
+                <div className="icon-div">
+                  <a href="https://lingobingo-hindi-learn.surge.sh/">
                     <LiaEyeSolid className="logo" />
                     <span>Preview</span>
                   </a>
-                  <a href="https://github.com/Irfankhan20/homifyEsate-client">
+                  <a href="https://github.com/Irfankhan20/lingo-bingo-dictionary/tree/main">
                     <FaGithub className="logo" />
-                    <span>Client</span>
-                  </a>
-                  <a href="https://github.com/Irfankhan20/homifyEstate-server">
-                    <FaGithub className="logo" />
-                    <span>Server</span>
+                    <span>Github</span>
                   </a>
                 </div>
               </div>
@@ -65,7 +64,10 @@ const Projects = () => {
 
             {/* 3rd project  */}
             <div className="row">
-              <img src="https://i.ibb.co/XD0c7yJ/delivery-tiger.jpg" alt="" />
+              <img
+                src="https://i.ibb.co.com/k8fQ2CZ/Screenshot-2024-11-27-123855.png"
+                alt=""
+              />
               <div className="layer">
                 <h5>Online Delivery System</h5>
 
@@ -89,20 +91,24 @@ const Projects = () => {
             {/* 4th project  */}
             <div className="row">
               <img
-                src="https://i.ibb.co/8cDZgmX/donation-campaign.jpg"
+                src="https://i.ibb.co.com/ry0trFJ/Screenshot-2024-11-27-124027.png"
                 alt=""
               />
               <div className="layer">
-                <h5>Donation Campaign</h5>
+                <h5>HomifyEstate(Team project)</h5>
 
-                <div className="icon-div">
-                  <a href="https://sudden-berry.surge.sh/">
+                <div className="icon-div ">
+                  <a href="https://homifyestate-8556d.web.app/">
                     <LiaEyeSolid className="logo" />
                     <span>Preview</span>
                   </a>
-                  <a href="https://github.com/Irfankhan20/donation-campaign-website">
+                  <a href="https://github.com/Irfankhan20/homifyEsate-client">
                     <FaGithub className="logo" />
-                    <span>Github</span>
+                    <span>Client</span>
+                  </a>
+                  <a href="https://github.com/Irfankhan20/homifyEstate-server">
+                    <FaGithub className="logo" />
+                    <span>Server</span>
                   </a>
                 </div>
               </div>

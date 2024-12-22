@@ -54,7 +54,7 @@ const Contact = () => {
       <h2 className="md:text-[60px] text-[45px] pb-2 md:pb-4 underline text-center font-bold">
         Contact <span className="text-[#0ef]">Me</span>
       </h2>
-      <div className="text-center">
+      <div className="text-center md:mb-10 lg:mb-12">
         <p className="">
           <span className="text-2xl text-[#0ef]">
             <Typewriter
@@ -68,9 +68,9 @@ const Contact = () => {
           Empowering Success Through Collaborative Teamwork.
         </p>
       </div>
-      <div className="contact grid grid-cols-1 md:grid-cols-2   ">
-        <div className="contact-text md:my-16 mt-5 md:mt-0 lg:mt-0 shadow-2xl">
-          <div className="contact-list flex mx-auto mb-5 max-w-7xl  text-center gap-7 justify-center">
+      <div className="w-11/12 lg:10/12 mx-auto contact grid grid-cols-1 md:grid-cols-2   ">
+        <div className="contact-text  mt-5 md:mt-20 lg:mt-16 shadow-2xl">
+          <div className="contact-list flex mb-5  text-center gap-7 justify-center">
             <li>
               <IoSend className="contact-logo" />
               contact@gmail.com
@@ -81,7 +81,7 @@ const Contact = () => {
             </li>
           </div>
           <img
-            className="w-[500px] px-5 h-[353px] mx-auto"
+            className=" px-5 md:w-[300px] lg:w-[500px]  h-[280px] lg:h-[350px] mx-auto"
             src="https://i.ibb.co/McqLNL3/gif.gif"
             alt=""
           />

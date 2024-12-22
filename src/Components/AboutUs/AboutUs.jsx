@@ -37,7 +37,7 @@ const AboutUs = () => {
             to bring your web application vision to life!
           </p>
           <a
-            href="https://drive.google.com/file/d/12Y3-g95f4r4KSr0E3-tpfMJOULrQ6NTx/view"
+            href="https://drive.google.com/file/d/1Ib7vvswQlyTbGPpQ2IXPaDJ78YQGkTXD/view"
             className="btn-box  px-4 py-3"
           >
             View Resume
