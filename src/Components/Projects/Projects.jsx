@@ -20,6 +20,32 @@ const Projects = () => {
             {/* 1st project  */}
             <div className="row">
               <img
+                src="https://i.ibb.co.com/pvbWmgYv/Screenshot-2025-02-10-130234.png"
+                alt=""
+              />
+              <div className="layer">
+                <h5>Tourism Management App</h5>
+
+                <div className="icon-div">
+                  <a href="https://unique-travel-c3fd8.web.app/">
+                    <LiaEyeSolid className="logo" />
+                    <span>Preview</span>
+                  </a>
+                  <a href="https://github.com/Irfankhan20/tourism-guide-client">
+                    <FaGithub className="logo" />
+                    <span>Client</span>
+                  </a>
+                  <a href="https://github.com/Irfankhan20/tourism-guide-server">
+                    <FaGithub className="logo" />
+                    <span>Server</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* 2nd project  */}
+            <div className="row">
+              <img
                 src="https://i.ibb.co.com/DfJ17Pk/Screenshot-2024-11-27-123502.png"
                 alt=""
               />
@@ -39,7 +65,7 @@ const Projects = () => {
               </div>
             </div>
 
-            {/* 2nd project  */}
+            {/* 3rd project  */}
             <div className="row">
               <img src="https://i.ibb.co/kmj93Rq/food-management.jpg" alt="" />
               <div className="layer">
@@ -55,32 +81,6 @@ const Projects = () => {
                     <span>Client</span>
                   </a>
                   <a href="https://github.com/Irfankhan20/restaurant-food-management-server-site">
-                    <FaGithub className="logo" />
-                    <span>Server</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            {/* 3rd project  */}
-            <div className="row">
-              <img
-                src="https://i.ibb.co.com/k8fQ2CZ/Screenshot-2024-11-27-123855.png"
-                alt=""
-              />
-              <div className="layer">
-                <h5>Online Delivery System</h5>
-
-                <div className="icon-div">
-                  <a href="https://fresh-glass.surge.sh/">
-                    <LiaEyeSolid className="logo" />
-                    <span>Preview</span>
-                  </a>
-                  <a href="https://github.com/Irfankhan20/delivery-tiger-client-site">
-                    <FaGithub className="logo" />
-                    <span>Client</span>
-                  </a>
-                  <a href="https://github.com/Irfankhan20/delivery-tiger-server-site">
                     <FaGithub className="logo" />
                     <span>Server</span>
                   </a>
